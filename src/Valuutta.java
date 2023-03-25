@@ -17,12 +17,4 @@ public class Valuutta {
 		this.vaihtokurssi = vaihtokurssi;
 //		this.getVaihtokurssi();
 		}
-	
-	public static void main(String[]args) {
-		Valuutta v = new Valuutta("EUR", 1.01);
-		v.getNimi();
-		v.getVaihtokurssi();
-		v.setVaihtokurssi(1.2);
-		System.out.println(vaihtokurssi);
-	}
 }
